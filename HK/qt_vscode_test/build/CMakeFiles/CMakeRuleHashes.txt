@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+22d91109d5be624a7fd2a56238d2f08d include/moc_mainwindow.cpp
+046bb3ba044289828c194965f9ad45af qrc_res.cpp
+e91620da7d6d47dc2fa16a056f9b90cb ui_mainwindow.h

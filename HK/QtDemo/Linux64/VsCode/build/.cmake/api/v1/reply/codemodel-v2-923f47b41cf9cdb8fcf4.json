@@ -1,0 +1,77 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Build",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QtClientDemo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QtClientDemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtClientDemo-Build-a60fd3f401d0e87ecb6d.json",
+					"name" : "QtClientDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lrelease_task::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lrelease_task-Build-930fc7642c24cb02eae6.json",
+					"name" : "lrelease_task",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lupdate_task::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lupdate_task-Build-6ca8c29bc48880dc04f0.json",
+					"name" : "lupdate_task",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shuai/HK/QtDemo/Linux64/VsCode/build",
+		"source" : "/home/shuai/HK/QtDemo/Linux64/VsCode"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

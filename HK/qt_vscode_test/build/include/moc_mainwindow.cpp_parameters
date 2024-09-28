@@ -1,0 +1,5 @@
+-I/home/shuai/HK/qt_vscode_test
+-I/home/shuai/HK/qt_vscode_test/build
+-o
+/home/shuai/HK/qt_vscode_test/build/include/moc_mainwindow.cpp
+/home/shuai/HK/qt_vscode_test/include/mainwindow.h

@@ -1,0 +1,3 @@
+/home/shuai/HK/qt_vscode_test/build/CMakeFiles/rebuild_cache.dir
+/home/shuai/HK/qt_vscode_test/build/CMakeFiles/edit_cache.dir
+/home/shuai/HK/qt_vscode_test/build/CMakeFiles/test.dir

@@ -1,0 +1,5 @@
+/home/shuai/HK/QtDemo/Linux64/VsCode/build/CMakeFiles/rebuild_cache.dir
+/home/shuai/HK/QtDemo/Linux64/VsCode/build/CMakeFiles/edit_cache.dir
+/home/shuai/HK/QtDemo/Linux64/VsCode/build/CMakeFiles/lrelease_task.dir
+/home/shuai/HK/QtDemo/Linux64/VsCode/build/CMakeFiles/lupdate_task.dir
+/home/shuai/HK/QtDemo/Linux64/VsCode/build/CMakeFiles/QtClientDemo.dir

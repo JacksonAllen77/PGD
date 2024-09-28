@@ -1,0 +1,2471 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/shuai/HK/QtDemo/Linux64/lib/QtClientDemo"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " "
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_WIDGETS_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/build"
+				},
+				{
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/MainWindow/DeviceTree"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/MainWindow/DeviceTree/AddNode"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/MainWindow/DeviceTree/DeviceAttr"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/MainWindow/LogAlarm/AlarmTable"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/MainWindow/LogAlarm/LogTable"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/MainWindow/DeviceTree/ChannelAttr"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/RealPlay"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/RealPlay/PTZ/PtzCruise"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/RealPlay/PTZ/PtzPreset"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/PlayBack"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ManageDevice/Timing"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ManageDevice/Update"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ManageDevice/Format"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ManageDevice/Reboot"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ManageDevice/Shutdown"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ManageDevice/LogSearch"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ManageDevice/DeviceState"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ManageDevice/Reset"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/OtherFunc/Deployment"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/OtherFunc/DevicePan"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/OtherFunc/ImportConfig"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/OtherFunc/SerialTransfer"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/OtherFunc/AudioBroadcast"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/OtherFunc/AudioIntercom"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/OtherFunc/AudioTransfer"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ExitModule"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ParaConfig/configure_params"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ParaConfig/configure_params/RemoteParams"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ParaConfig/configure_params/RemoteParams/NetParams"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ParaConfig/configure_params/RemoteParams/ChannelParams"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ParaConfig/configure_params/RemoteParams/UserParams"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ParaConfig/configure_params/RemoteParams/ExceptionParams"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ParaConfig/configure_params/RemoteParams/SerialParams"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ParaConfig/configure_params/RemoteParams/AlarmParams"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ParaConfig/configure_params/RemoteParams/ATMParams"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ParaConfig/configure_params/PublicFuc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ParaConfig/configure_params/IPParams"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/ParaConfig/configure_params/HardDiskParams"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../includeCn"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/shuai/HK/QtDemo/Linux64/VsCode/../../src/Public"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.9/5.12.9/gcc_64/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.9/5.12.9/gcc_64/include/QtOpenGL"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				167
+			]
+		}
+	],
+	"id" : "QtClientDemo::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/home/shuai/HK/QtDemo/Linux64/VsCode/../lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/home/shuai/HK/QtDemo/Linux64/VsCode/../lib/HCNetSDKCom",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/shuai/HK/QtDemo/Linux64/VsCode/../lib:/home/shuai/HK/QtDemo/Linux64/VsCode/../lib/HCNetSDKCom:/opt/Qt5.12.9/5.12.9/gcc_64/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/Qt5.12.9/5.12.9/gcc_64/lib/libQt5OpenGL.so.5.12.9",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lAudioRender",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lhcnetsdk",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lPlayCtrl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lSuperRender",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/Qt5.12.9/5.12.9/gcc_64/lib/libQt5Widgets.so.5.12.9",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/Qt5.12.9/5.12.9/gcc_64/lib/libQt5Gui.so.5.12.9",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/Qt5.12.9/5.12.9/gcc_64/lib/libQt5Core.so.5.12.9",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "QtClientDemo",
+	"nameOnDisk" : "QtClientDemo",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				167
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ExitModule/exitdemo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/MainWindow/DeviceTree/AddNode/addnode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/MainWindow/DeviceTree/ChannelAttr/channelattr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/MainWindow/DeviceTree/DeviceAttr/deviceattr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/MainWindow/DeviceTree/channeldata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/MainWindow/DeviceTree/devicedata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/MainWindow/DeviceTree/treeitem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/MainWindow/DeviceTree/treemodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/MainWindow/LogAlarm/AlarmTable/alarmtable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/MainWindow/LogAlarm/LogTable/logtable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ManageDevice/DeviceState/devicestate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ManageDevice/Format/formatdisk.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ManageDevice/LogSearch/logsearch.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ManageDevice/Reboot/rebootdevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ManageDevice/Reset/resetdevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ManageDevice/Shutdown/shutdowndevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ManageDevice/Timing/timing.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ManageDevice/Update/remoteupdate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/OtherFunc/AudioBroadcast/audiobroadcast.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/OtherFunc/AudioIntercom/audiointercom.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/OtherFunc/AudioTransfer/audiotransfer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/OtherFunc/Deployment/deploy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/OtherFunc/DevicePan/devicepan.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/OtherFunc/ImportConfig/importconfig.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/OtherFunc/SerialTransfer/serialtransfer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/HardDiskParams/charddiskparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/IPParams/cipparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/PublicFuc/publicfuc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ATMParams/catmnetparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ATMParams/catmparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/AlarmParams/calarminhandletype.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/AlarmParams/calarminptz.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/AlarmParams/calarmparamsdlg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ChannelParams/cchannelparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ChannelParams/cdlgremoterecordschedule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ChannelParams/chidealarm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ChannelParams/cmotion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ChannelParams/cshelter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ChannelParams/cvilost.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ExceptionParams/exceptionparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/NetParams/cadvancednetparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/NetParams/ccompressaudio.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/NetParams/cnfsparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/NetParams/crtspparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/NetParams/czonedst.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/SerialParams/cpppcfgdlg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/SerialParams/cserialparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/UserParams/cuserparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/cremoteparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/cconfigureparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/PlayBack/playback.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/RealPlay/FramePlayWnd.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/RealPlay/PTZ/PtzCruise/ptzcruise.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/RealPlay/PTZ/PtzPreset/ptzpreset.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/RealPlay/realplay.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/qtclientdemo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ExitModule/moc_exitdemo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/DeviceTree/AddNode/moc_addnode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/DeviceTree/ChannelAttr/moc_channelattr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/DeviceTree/DeviceAttr/moc_deviceattr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/DeviceTree/moc_channeldata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/DeviceTree/moc_devicedata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/DeviceTree/moc_treeitem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/DeviceTree/moc_treemodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/LogAlarm/AlarmTable/moc_alarmtable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/LogAlarm/LogTable/moc_logtable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ManageDevice/DeviceState/moc_devicestate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ManageDevice/Format/moc_formatdisk.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ManageDevice/LogSearch/moc_logsearch.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ManageDevice/Reboot/moc_rebootdevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ManageDevice/Reset/moc_resetdevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ManageDevice/Shutdown/moc_shutdowndevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ManageDevice/Timing/moc_timing.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ManageDevice/Update/moc_remoteupdate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/OtherFunc/AudioBroadcast/moc_audiobroadcast.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/OtherFunc/AudioIntercom/moc_audiointercom.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/OtherFunc/AudioTransfer/moc_audiotransfer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/OtherFunc/Deployment/moc_deploy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/OtherFunc/DevicePan/moc_devicepan.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/OtherFunc/ImportConfig/moc_importconfig.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/OtherFunc/SerialTransfer/moc_serialtransfer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/HardDiskParams/moc_charddiskparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/IPParams/moc_cipparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/PublicFuc/moc_publicfuc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ATMParams/moc_catmnetparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ATMParams/moc_catmparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/AlarmParams/moc_calarminhandletype.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/AlarmParams/moc_calarminptz.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/AlarmParams/moc_calarmparamsdlg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ChannelParams/moc_cchannelparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ChannelParams/moc_cdlgremoterecordschedule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ChannelParams/moc_chidealarm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ChannelParams/moc_cmotion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ChannelParams/moc_cshelter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ChannelParams/moc_cvilost.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ExceptionParams/moc_exceptionparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/NetParams/moc_cadvancednetparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/NetParams/moc_ccompressaudio.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/NetParams/moc_cnfsparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/NetParams/moc_crtspparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/NetParams/moc_czonedst.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/SerialParams/moc_cpppcfgdlg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/SerialParams/moc_cserialparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/UserParams/moc_cuserparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/moc_cremoteparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/moc_cconfigureparams.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/PlayBack/moc_playback.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/Public/moc_DemoPublic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/RealPlay/moc_FramePlayWnd.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/RealPlay/PTZ/PtzCruise/moc_ptzcruise.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/RealPlay/PTZ/PtzPreset/moc_ptzpreset.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/RealPlay/moc_realplay.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/moc_common.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/moc_qtclientdemo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_exitdemo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_addnode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_channelattr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_deviceattr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_alarmtable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_logtable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_devicestate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_formatdisk.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_logsearch.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_rebootdevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_resetdevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_shutdowndevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_timing.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_remoteupdate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_audiobroadcast.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_audiointercom.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_audiotransfer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_deploy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_devicepan.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_importconfig.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_serialtransfer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_charddiskparams.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_cipparams.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_catmnetparams.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_catmparams.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_calarminhandletype.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_calarminptz.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_calarmparamsdlg.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_cchannelparams.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_cdlgremoterecordschedule.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_chidealarm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_cmotion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_cshelter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_cvilost.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_exceptionparams.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_cadvancednetparams.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_ccompressaudio.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_cnfsparams.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_crtspparams.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_czonedst.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_cpppcfgdlg.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_cserialparams.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_cuserparams.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_cremoteparams.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_cconfigureparams.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_playback.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_FramePlayWnd.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_ptzcruise.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_ptzpreset.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_realplay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_qtclientdemo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/qrc_Player.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ExitModule/moc_exitdemo.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/DeviceTree/AddNode/moc_addnode.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/DeviceTree/ChannelAttr/moc_channelattr.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/DeviceTree/DeviceAttr/moc_deviceattr.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/DeviceTree/moc_channeldata.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/DeviceTree/moc_devicedata.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/DeviceTree/moc_treeitem.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/DeviceTree/moc_treemodel.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/LogAlarm/AlarmTable/moc_alarmtable.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/MainWindow/LogAlarm/LogTable/moc_logtable.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ManageDevice/DeviceState/moc_devicestate.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ManageDevice/Format/moc_formatdisk.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ManageDevice/LogSearch/moc_logsearch.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ManageDevice/Reboot/moc_rebootdevice.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ManageDevice/Reset/moc_resetdevice.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ManageDevice/Shutdown/moc_shutdowndevice.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ManageDevice/Timing/moc_timing.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ManageDevice/Update/moc_remoteupdate.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/OtherFunc/AudioBroadcast/moc_audiobroadcast.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/OtherFunc/AudioIntercom/moc_audiointercom.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/OtherFunc/AudioTransfer/moc_audiotransfer.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/OtherFunc/Deployment/moc_deploy.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/OtherFunc/DevicePan/moc_devicepan.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/OtherFunc/ImportConfig/moc_importconfig.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/OtherFunc/SerialTransfer/moc_serialtransfer.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/HardDiskParams/moc_charddiskparams.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/IPParams/moc_cipparams.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/PublicFuc/moc_publicfuc.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ATMParams/moc_catmnetparams.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ATMParams/moc_catmparams.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/AlarmParams/moc_calarminhandletype.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/AlarmParams/moc_calarminptz.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/AlarmParams/moc_calarmparamsdlg.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ChannelParams/moc_cchannelparams.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ChannelParams/moc_cdlgremoterecordschedule.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ChannelParams/moc_chidealarm.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ChannelParams/moc_cmotion.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ChannelParams/moc_cshelter.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ChannelParams/moc_cvilost.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/ExceptionParams/moc_exceptionparams.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/NetParams/moc_cadvancednetparams.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/NetParams/moc_ccompressaudio.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/NetParams/moc_cnfsparams.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/NetParams/moc_crtspparams.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/NetParams/moc_czonedst.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/SerialParams/moc_cpppcfgdlg.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/SerialParams/moc_cserialparams.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/UserParams/moc_cuserparams.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/RemoteParams/moc_cremoteparams.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/ParaConfig/configure_params/moc_cconfigureparams.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/PlayBack/moc_playback.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/Public/moc_DemoPublic.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/RealPlay/moc_FramePlayWnd.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/RealPlay/PTZ/PtzCruise/moc_ptzcruise.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/RealPlay/PTZ/PtzPreset/moc_ptzpreset.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/RealPlay/moc_realplay.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/moc_common.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/__/__/src/moc_qtclientdemo.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ExitModule/exitdemo.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/MainWindow/DeviceTree/AddNode/addnode.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/MainWindow/DeviceTree/ChannelAttr/channelattr.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/MainWindow/DeviceTree/DeviceAttr/deviceattr.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/MainWindow/LogAlarm/AlarmTable/alarmtable.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/MainWindow/LogAlarm/LogTable/logtable.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ManageDevice/DeviceState/devicestate.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ManageDevice/Format/formatdisk.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ManageDevice/LogSearch/logsearch.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ManageDevice/Reboot/rebootdevice.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ManageDevice/Reset/resetdevice.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ManageDevice/Shutdown/shutdowndevice.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ManageDevice/Timing/timing.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ManageDevice/Update/remoteupdate.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/OtherFunc/AudioBroadcast/audiobroadcast.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/OtherFunc/AudioIntercom/audiointercom.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/OtherFunc/AudioTransfer/audiotransfer.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/OtherFunc/Deployment/deploy.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/OtherFunc/DevicePan/devicepan.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/OtherFunc/ImportConfig/importconfig.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/OtherFunc/SerialTransfer/serialtransfer.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/HardDiskParams/charddiskparams.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/IPParams/cipparams.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ATMParams/catmnetparams.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ATMParams/catmparams.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/AlarmParams/calarminhandletype.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/AlarmParams/calarminptz.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/AlarmParams/calarmparamsdlg.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ChannelParams/cchannelparams.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ChannelParams/cdlgremoterecordschedule.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ChannelParams/chidealarm.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ChannelParams/cmotion.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ChannelParams/cshelter.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ChannelParams/cvilost.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/ExceptionParams/exceptionparams.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/NetParams/cadvancednetparams.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/NetParams/ccompressaudio.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/NetParams/cnfsparams.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/NetParams/crtspparams.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/NetParams/czonedst.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/SerialParams/cpppcfgdlg.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/SerialParams/cserialparams.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/UserParams/cuserparams.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/RemoteParams/cremoteparams.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/ParaConfig/configure_params/cconfigureparams.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/PlayBack/playback.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/RealPlay/FramePlayWnd.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/RealPlay/PTZ/PtzCruise/ptzcruise.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/RealPlay/PTZ/PtzPreset/ptzpreset.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/RealPlay/realplay.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/qtclientdemo.ui",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/shuai/HK/QtDemo/src/Player.qrc",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "EXECUTABLE"
+}
